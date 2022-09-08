@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Pagina Cadastro</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-horizontal" method="post">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Cadastro de Usuários</legend>
+
+                <!-- Text input-->
+                <div class="row">
+                    <label class="col-md-2 control-label" for="nomeInput">Nome</label>
+                    <div class="col-md-4">
+                        <input id="nomeInput" name="nomeInput" type="text" placeholder="Digite o nome completo..."
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="row">
+                    <label class="col-md-2 control-label" for="idadetInput">Idade</label>
+                    <div class="col-md-4">
+                        <input id="idadetInput" name="idadetInput" type="number" placeholder="Digite a idade..."
+                            maxlength="2" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="row">
+                    <label class="col-md-2 control-label" for="telInput">Telefone</label>
+                    <div class="col-md-4">
+                        <input id="telInput" name="telInput" type="tel" placeholder="00000000000" maxlength="11"
+                            class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="row botao">
+                    <div class="col-md-2">
+                        <button id="ccadastroButton" type="submit" name="ccadastroButton" class="btn btn-success"
+                            onclick="cadastra()">Cadastrar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div id="cadastro" class="caixaDeDados">
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

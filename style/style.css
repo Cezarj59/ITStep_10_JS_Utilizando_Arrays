@@ -1,0 +1,47 @@
+body{
+    font-size: 16px;
+}
+label {
+    text-align: right;
+}
+
+.row {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+legend {
+    text-align: center;
+}
+
+form {
+    background-color: #EBEBED;
+    border: 1px solid #000;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.caixaDeDados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #C9C9C9;
+    padding: 15px;
+    margin: 10px 5px 0 0;
+    border: #000 1px black;
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .caixaDeDados {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
