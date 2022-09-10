@@ -1,5 +1,5 @@
 <h2>Atividade ITStep_10_JS_Utilizando_Arrays</h2>
-<p>Uma página que casastra e exibe em um card os usuarios cadastrados, utilizando Arrays para armazenar os dados.</p>
+<p>Uma página que cadastra e exibe em um card os usuarios cadastrados, utilizando Arrays para armazenar os dados.</p>
 
 <ul><h3>Tópicos</h3>
 <li>JavaScript</li>
